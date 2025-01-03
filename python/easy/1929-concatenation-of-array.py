@@ -1,3 +1,4 @@
+#solution 2
 class Solution(object):
     def getConcatenation(self, nums):
 
@@ -8,3 +9,8 @@ class Solution(object):
                 
         return ans # Return our answer
         # O(n)
+
+#solution 2
+class Solution(object):
+    def getConcatenation(self, nums):
+        return nums+nums # O(n) - return the concatenation of the nums array with itself
