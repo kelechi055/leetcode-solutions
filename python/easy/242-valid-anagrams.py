@@ -1,3 +1,5 @@
+# Solution 1
+
 class Solution(object):
     def isAnagram(self, s, t):
         
@@ -11,4 +13,13 @@ class Solution(object):
         #If none of the conditions above are met, s and t are anagrams. O(1)
         return True 
 
-        #Time Complexity is O(n log n)
+        #Time Complexity is O(n log n) - worst case
+
+
+# Solution 2 (More efficient)
+
+class Solution(object):
+    def isAnagram(self, s, t):
+        return Counter(s) == Counter(t) # counts the occurrences of each character in both strings
+
+        #Time Complexity: O(n)
