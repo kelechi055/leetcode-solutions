@@ -1,0 +1,8 @@
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
+        
+        for n in range(1, len(nums)): # Iterate through every elemnt in the range of 1 to the length of nums - O(N)
+            nums[n] += nums[n-1] # add each element in nums to the previous element - O(1)
+        return nums # Return the final answer
+
+        # Time Complexity: O(n)
