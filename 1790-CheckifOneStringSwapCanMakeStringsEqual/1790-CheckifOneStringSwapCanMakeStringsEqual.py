@@ -1,0 +1,1 @@
+return not (d:=[(a,b) for a,b in zip(s1,s2) if a!=b]) or len(d)==2 and d[0]==d[1][::-1]
