@@ -1,3 +1,3 @@
 # leetcode-solutions
 
-my leetcode submissions
+all my leetcode submissions
